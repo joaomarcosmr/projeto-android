@@ -18,7 +18,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    min-width: 400px;
+    min-width: 500px;
 }
 
 body{
@@ -72,6 +72,8 @@ main{
     min-width: 500px;
     max-width: 800px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 main h1{
@@ -92,14 +94,14 @@ main p{
     padding: 15px 0px;
 }
 
-main > img{
+main > article > img{
     width: 100%;
     max-width: 1000px;
     display: block;
     margin: 0 auto;
 }
 
-main > img.bugdroid{
+main > article > img.bugdroid{
     max-width: 400px;
 }
 
@@ -108,6 +110,7 @@ div.video{
     margin: 0px -20px 15px -20px;
     position: relative;
     padding: 200px;
+    min-width: 400px;
 }
 
 div.video > iframe{
@@ -116,5 +119,35 @@ div.video > iframe{
     left: 140px;
     width: 550px;
     height: 350px;
-    min-width: 300px;
+}
+
+aside{
+    background-color: var(--cor1);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+    min-width: 400px;
+}
+
+aside > h2{
+    min-width: 400px;
+    background-image: none;
+    background-color: #06361c;
+    color: white;
+    font-family: 'Bebas Neue';
+    margin: -15px -15px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+aside > p{
+    min-width: 400px;
+    padding: 25px 0px 5px 0px;
+}
+
+ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
 }
