@@ -27,13 +27,13 @@ body{
 
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    min-height: 150px;
+    min-height: 200px;
 }
 
 header h1{
     text-align: center;
     color: white;
-    padding-top: 10px;
+    padding-top: 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.699);
     font-size: 3em;
 }
@@ -46,7 +46,7 @@ header > p{
 }
 
 header > nav{
-    padding: 10px;
+    padding: 50px 0px 0px 0px;
     font-size: 1.4em;
 }
 
@@ -60,5 +60,12 @@ header > nav > a:hover{
     background-color: rgba(128, 128, 128, 0.171);
     border-radius: 10px;
     padding: 2px;
-    transition-duration: 1s;
+    transition-duration: 0.3s;
 }
+
+main{
+    width:600px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
