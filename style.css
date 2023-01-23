@@ -28,7 +28,7 @@ body{
 
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    min-height: 200px;
+    min-height: 150px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
 }
 
@@ -45,6 +45,7 @@ header > p{
     font-size: 1.3em;
     color: rgb(214, 214, 214);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+    margin-bottom: -15px;
 }
 
 header > nav{
@@ -86,6 +87,7 @@ main h2{
     color: var(--cor5);
     background-image: linear-gradient(to right, var(--cor1), transparent);
     font-family: 'idroid';
+    padding: 5px;
 }
 
 main p{
