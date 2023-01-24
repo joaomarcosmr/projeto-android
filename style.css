@@ -18,20 +18,17 @@
 * {
     margin: 0px;
     padding: 0px;
-    min-width: 414px;
 }
 
 body{
     font-family: 'Bebas Neue', cursive;
     background-color: var(--cor1);
-    min-width: 414px;
+    width: 400px;
+    min-width: 700px;
 }
 
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
-    min-height: 150px;
-    min-width: 414px;
-    max-width: none;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
 }
 
@@ -73,8 +70,6 @@ main{
     background-color: white;
     padding: 20px;
     margin: 0 auto;
-    min-width: 414px;
-    max-width: 800px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -112,18 +107,7 @@ main > article > img.bugdroid{
 
 div.video{
     background-color: var(--cor5);
-    margin: 0px -20px 15px -20px;
-    position: relative;
-    padding: 200px;
-    min-width: 400px;
-}
-
-div.video > iframe{
-    position: absolute;
-    top: 25px;
-    left: 140px;
-    width: 550px;
-    height: 350px;
+    display: block;
 }
 
 aside{
@@ -131,11 +115,9 @@ aside{
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
-    min-width: 400px;
 }
 
 aside > h2{
-    min-width: 400px;
     background-image: none;
     background-color: #06361c;
     color: white;
@@ -147,7 +129,6 @@ aside > h2{
 }
 
 aside > p{
-    min-width: 400px;
     padding: 25px 0px 5px 0px;
 }
 
